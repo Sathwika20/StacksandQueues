@@ -16,4 +16,11 @@ public class Stack<K>{
     public INode peak() {
         return linkedList.head;
     }
+
+    public INode pop() {
+        return linkedList.pop();
+    }
+    public INode popLast() {
+        return linkedList.popLast();
+    }
 }

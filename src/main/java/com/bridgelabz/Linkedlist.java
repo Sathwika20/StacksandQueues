@@ -52,11 +52,12 @@ public class Linkedlist {
         myNode.setNext(newNode);
     }
 
-    public INode popFirst() {
+    public INode pop() {
         INode tempNode = this.head;
         this.head = head.getNext();
         return tempNode;
     }
+    
     public INode popLast() {
         INode tempNode = this.head;
 

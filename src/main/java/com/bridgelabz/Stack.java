@@ -20,6 +20,7 @@ public class Stack<K>{
     public INode pop() {
         return linkedList.pop();
     }
+
     public INode popLast() {
         return linkedList.popLast();
     }

@@ -37,4 +37,5 @@ public  class StackTest {
         Assert.assertEquals(myThirdNode,pop);
         Assert.assertEquals(null,popLast);
     }
+
 }
